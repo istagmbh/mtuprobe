@@ -1,4 +1,5 @@
-from collections import Callable
+from collections.abc import Callable
+
 
 
 def bisect(n, mapper, tester):
